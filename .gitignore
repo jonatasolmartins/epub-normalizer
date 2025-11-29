@@ -10,7 +10,6 @@ dist/
 build/
 output/
 *.epub
-*.pdf
 *.mobi
 .DS_Store
 .vscode/
