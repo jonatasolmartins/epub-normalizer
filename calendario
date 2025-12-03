@@ -1,0 +1,21 @@
+Calendario mensal, semanal e diário.
+Cada usuário terá um login 
+Os schedule marcadas como públicas serão adicionadas ao calendário familiar
+Schedule privados não aparecem no calendário familiar 
+Dentro dos schedule haverá a opcyde adicionar tarefas
+As tarefas pode ser marcadas como públicas (no caso dos schedule públicos as tarefas públicas ficarão visíveis lá, schedule privados só podem ter tarefas privadas mas schedule públicos podem ter tarefas privadas que ficarão visíveis apenas para owner)
+Será possível alternar entre os calendário familiar e o pessoal
+Os schedule pessoais/privados não sofreram conflitos com os públicos (eles podem ser feitos em paralelo).
+Os schedule públicos terão um aviso de conflito(um ícone ou flag) se overlap com outro schedule público no momento da criação podendo o usuário optar por continuar com o agendamento ou trocar o horário.
+Os schedules podem ser marcados com horário de começo e término ou como uma atividade diária.
+O login será feito com e-mail e senha(não nessecita validação nessa primeira fase), terá a opção de adicionar uma foto de perfil e um nome.
+Mas tarefas haverá a possibilidade de adicionar um Pomodoro(se houver alguma biblioteca para isso do contrário deixa para uma futura versão), também opção de adicionar notas(markdown se houver alguma biblioteca para isso tipo notion e não for muito complexo de integrar), adicionar imagems as notas, e podem ser marcadas como completas, semi-completas ou não completas.
+Haverá um report diário, semanal é mensal, das conquistas familiares e também pessoal (tarefas completas e semi- completas).
+A visão principal será do calendário.
+O usuário administrador será o primeiro usuário a criar uma conta e receberá a flag admin.
+O usuário admim poderá recuperar senhas caso os outros membros esqueçam a sua e gerar os reportes que ficaram disponíveis na visão da família e também pessoal, o admim não pode ver as tarefas pessoais dos outros usuários.
+O usuário podera sinalizar que uma tarefa será feita por ele e outros usuários (tarefas familiares por exemplo) e o usuário sinalizado poderá aceitar ou recusar (podendo o usuário reenviar o convite novamente se recusado por engano).
+Convites privados ficam visíveis apenas no calendário pessoal dos envolvidos na tarefa e os públicos no calendário familiar.
+O gerenciamento de convites ficar visível no perfil do usuário e ele receberá uma falha contendo o número de convites pendentes no canto superior de sua foto se perfil (caso não haja uma foto se perfil uma cor sólida será usado no lugar).
+As agendas/schedules poderiam ser copiadas com edição para outros dias ou até mesmo ser schedules recorrentes semanais , mensais ou anuais.
+
